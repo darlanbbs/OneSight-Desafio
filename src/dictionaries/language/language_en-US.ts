@@ -18,4 +18,14 @@ export const enUS = {
     work environment. Our journey is driven by the constant pursuit of learning and improvement.
     We are committed to providing exceptional experiences for our users.`,
   },
+  ContactPage: {
+    text: `Do you have any questions or would you like to get in touch with us? Fill out the form below.`,
+    title: `Get in touch with us.`,
+    form: {
+      name: "Name",
+      email: "Email",
+      message: "Message",
+      button: "Send message",
+    },
+  },
 };

@@ -18,4 +18,15 @@ export const ptBR = {
     inclusivo. Nossa jornada é impulsionada pela busca constante de aprendizado e melhoria.
     Estamos comprometidos em fornecer experiências excepcionais aos nossos usuários.`,
   },
+  ContactPage: {
+    text: `Tem alguma dúvida ou gostaria de entrar em contato conosco? Preencha o
+    formulário abaixo.`,
+    title: `Entre em contato conosco`,
+    form: {
+      name: "Nome",
+      email: "Email",
+      message: "Mensagem",
+      button: "Enviar mensagem",
+    },
+  },
 };
