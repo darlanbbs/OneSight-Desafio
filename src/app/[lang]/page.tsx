@@ -1,4 +1,4 @@
-import { getDictionarieConfigServerSide } from "@/dictionaries/dictionariesConfigServerSide";
+import { getDictionarieConfigServerSide } from "../../../dictionaries/dictionariesConfigServerSide";
 import { Locale } from "../config/i18n.config";
 import Navbar from "../components/Navbar/NavBar";
 

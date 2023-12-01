@@ -1,4 +1,4 @@
-import { Locale } from "@/app/config/i18n.config";
+import { Locale } from "../../config/i18n.config";
 import React from "react";
 
 const ChangeLanguageButton = ({
