@@ -4,4 +4,9 @@ export const ptBR = {
     mensagem: "Este é um exemplo de mensagem em português brasileiro.",
     botao: "Clique aqui",
   },
+  Navbar: {
+    home: "Home",
+    about: "Sobre",
+    contact: "Contato",
+  },
 };
