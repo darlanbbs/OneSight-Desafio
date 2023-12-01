@@ -27,6 +27,11 @@ export const ptBR = {
       email: "Email",
       message: "Mensagem",
       button: "Enviar mensagem",
+      placeholder: {
+        name: "Insira seu nome",
+        email: "Insira seu email",
+        message: "Insira sua mensagem",
+      },
     },
   },
 };

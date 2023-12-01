@@ -26,6 +26,11 @@ export const enUS = {
       email: "Email",
       message: "Message",
       button: "Send message",
+      placeholder: {
+        name: "Enter your name",
+        email: "Enter your email",
+        message: "Enter your message",
+      },
     },
   },
 };
