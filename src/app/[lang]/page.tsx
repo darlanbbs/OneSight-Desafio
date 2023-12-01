@@ -7,11 +7,7 @@ export default function Home({ params }: { params: { lang: Locale } }) {
   return (
     <div>
       <header>
-        <Navbar
-          about={dictionaries.Navbar.about}
-          contact={dictionaries.Navbar.contact}
-          home={dictionaries.Navbar.home}
-        />
+        <Navbar params={params} />
       </header>
       <p>{dictionaries.site.titulo}</p>
       <p>{dictionaries.site.mensagem}</p>
