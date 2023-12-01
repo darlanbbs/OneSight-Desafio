@@ -3,6 +3,7 @@ import { Locale } from "./../../config/i18n.config";
 import { getDictionarieConfigClientSide } from "../../../dictionaries/dictionariesConfigClientSide";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import ChangeLanguageButton from "../changeLanguageButton/ChangeLanguageButton";
 
 const Navbar = ({ params }: { params: { lang: Locale } }) => {
   const dictionaries = getDictionarieConfigClientSide(params.lang);
@@ -33,15 +34,16 @@ const Navbar = ({ params }: { params: { lang: Locale } }) => {
           </Link>
         </div>
         <div className="flex items-center">
-          <button className="text-white" onClick={() => alterarIdioma("pt-BR")}>
-            <img src="/icons/brazilIcon.png" alt="Brazil" className="w-6 h-6" />
-          </button>
-          <button
-            className="text-white ml-4"
-            onClick={() => alterarIdioma("en-US")}
-          >
-            <img src="/icons/euaIcon.png" alt="EUA" className="w-6 h-6" />
-          </button>
+          <ChangeLanguageButton
+            country="United States"
+            icon="euaIcon"
+            alterarIdioma={() => alterarIdioma("en-US")}
+          />
+          <ChangeLanguageButton
+            country="Brazil"
+            icon="brazilIcon"
+            alterarIdioma={() => alterarIdioma("pt-BR")}
+          />
         </div>
       </div>
     </nav>
