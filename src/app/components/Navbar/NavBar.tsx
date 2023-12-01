@@ -33,15 +33,15 @@ const Navbar = ({ params }: { params: { lang: Locale } }) => {
             {dictionaries.Navbar.about}
           </Link>
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center gap-1">
           <ChangeLanguageButton
             country="United States"
-            icon="euaIcon"
+            icon="/icons/euaIcon.png"
             alterarIdioma={() => alterarIdioma("en-US")}
           />
           <ChangeLanguageButton
             country="Brazil"
-            icon="brazilIcon"
+            icon="/icons/brazilIcon.png"
             alterarIdioma={() => alterarIdioma("pt-BR")}
           />
         </div>

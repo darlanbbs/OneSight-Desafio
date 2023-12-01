@@ -12,7 +12,7 @@ const ChangeLanguageButton = ({
 }) => {
   return (
     <button className="text-white" onClick={() => alterarIdioma("pt-BR")}>
-      <img src={`"/icons/${icon}.png"`} alt={country} className="w-6 h-6" />;
+      <img src={icon} alt={country} className="w-6 h-6" />
     </button>
   );
 };
