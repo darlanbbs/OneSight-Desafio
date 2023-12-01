@@ -1,6 +1,6 @@
 "use client";
 
-import { Locale, i18n } from "@/app/config/i18n.config";
+import { Locale, i18n } from "../app/config/i18n.config";
 
 import { configDictionarie } from "./dictionariesConfig";
 

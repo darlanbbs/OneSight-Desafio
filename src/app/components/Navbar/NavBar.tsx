@@ -1,5 +1,5 @@
-import { Locale } from "@/app/config/i18n.config";
-import { getDictionarieConfigClientSide } from "@/dictionaries/dictionariesConfigClientSide";
+import { Locale } from "./../../config/i18n.config";
+import { getDictionarieConfigClientSide } from "../../../dictionaries/dictionariesConfigClientSide";
 import Link from "next/link";
 
 const Navbar = ({ params }: { params: { lang: Locale } }) => {

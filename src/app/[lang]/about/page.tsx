@@ -1,6 +1,6 @@
-import Navbar from "@/app/components/Navbar/NavBar";
-import { Locale } from "@/app/config/i18n.config";
-import { getDictionarieConfigServerSide } from "@/dictionaries/language/dictionariesConfigServerSide";
+import { getDictionarieConfigServerSide } from "./../../../dictionaries/dictionariesConfigServerSide";
+import Navbar from "./../../components/Navbar/NavBar";
+import { Locale } from "./../../config/i18n.config";
 import React from "react";
 
 const About = ({ params }: { params: { lang: Locale } }) => {
