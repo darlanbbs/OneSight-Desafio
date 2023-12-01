@@ -1,24 +1,21 @@
+import { Locale } from "@/app/config/i18n.config";
+import { getDictionarieConfigClientSide } from "@/dictionaries/dictionariesConfigClientSide";
 import Link from "next/link";
 
-type NavBarProps = {
-  home: string;
-  contact: string;
-  about: string;
-};
-
-const Navbar = ({ home, contact, about }: NavBarProps) => {
+const Navbar = ({ params }: { params: { lang: Locale } }) => {
+  const dictionaries = getDictionarieConfigClientSide(params.lang);
   return (
     <nav className="bg-gray-800 p-4">
       <div className="flex items-center justify-between">
         <div>
-          <Link href="/" className="text-white">
-            {home}
+          <Link href={`/${params.lang}`} className="text-white">
+            {dictionaries.Navbar.home}
           </Link>
-          <Link href="/contact" className="text-white ml-4">
-            {contact}
+          <Link href={`/${params.lang}/contact`} className="text-white ml-4">
+            {dictionaries.Navbar.contact}
           </Link>
-          <Link href="/about" className="text-white ml-4">
-            {about}
+          <Link href={`/${params.lang}/about`} className="text-white ml-4">
+            {dictionaries.Navbar.about}
           </Link>
         </div>
         <div className="flex items-center">
