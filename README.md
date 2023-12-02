@@ -11,10 +11,11 @@
 </div>
 
 <div align="center">
-    <img src="https://img.shields.io/static/v1?label=NextJS&message=13.1.6&color=#009CA3%3CCOLOR%3E&style=plastic%3CSTYLE%3E&logo=react%3CLOGO%3E" alt="Versão do NextJS" />
-    <img src="https://img.shields.io/static/v1?label=Typescript&message=4.9.5&color=#009CA3%3CCOLOR%3E&style=plastic%3CSTYLE%3E&logo=react%3CLOGO%3E" alt="Versão do Typescript" />
-    <img src="https://img.shields.io/static/v1?label=Jest&message=29.5.0&color=#009CA3%3CCOLOR%3E&style=plastic%3CSTYLE%3E&logo=react%3CLOGO%3E" alt="Versão do Jest" />
-    <img src="https://img.shields.io/static/v1?label=Testing%20Library&message=14.0.0&color=#009CA3%3CCOLOR%3E&style=plastic%3CSTYLE%3E&logo=react%3CLOGO%3E" alt="Versão do Testing Library" />
+    <img src="https://img.shields.io/static/v1?label=NextJS&message=14.0.3&color=#009CA3%3CCOLOR%3E&style=plastic%3CSTYLE%3E&logo=react%3CLOGO%3E" alt="Versão do NextJS" />
+    <img src="https://img.shields.io/static/v1?label=Typescript&message=5&color=#009CA3%3CCOLOR%3E&style=plastic%3CSTYLE%3E&logo=react%3CLOGO%3E" alt="Versão do Typescript" />
+    <img src="https://img.shields.io/static/v1?label=Jest&message=29.7.0&color=#009CA3%3CCOLOR%3E&style=plastic%3CSTYLE%3E&logo=react%3CLOGO%3E" alt="Versão do Jest" />
+    <img src="https://img.shields.io/static/v1?label=Testing%20Library&message=14.1.2&color=#009CA3%3CCOLOR%3E&style=plastic%3CSTYLE%3E&logo=react%3CLOGO%3E" alt="Versão do Testing Library" />
+    <img src="https://img.shields.io/static/v1?label=Tailwind%20Css&message=3.3.0&color=#009CA3%3CCOLOR%3E&style=plastic%3CSTYLE%3E&logo=react%3CLOGO%3E" alt="Versão do TailwindCss" />
 </div>
 
 <div align="center">
