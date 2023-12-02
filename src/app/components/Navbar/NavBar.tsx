@@ -20,33 +20,35 @@ const Navbar = ({ params }: { params: { lang: Locale } }) => {
   };
 
   return (
-    <nav className="bg-gray-800 p-4">
-      <div className="flex items-center justify-between">
-        <div>
-          <Link href={`/${params.lang}`} className="text-white">
-            {dictionaries.Navbar.home}
-          </Link>
-          <Link href={`/${params.lang}/contact`} className="text-white ml-4">
-            {dictionaries.Navbar.contact}
-          </Link>
-          <Link href={`/${params.lang}/about`} className="text-white ml-4">
-            {dictionaries.Navbar.about}
-          </Link>
+    <header>
+      <nav className="bg-gray-800 p-4">
+        <div className="flex items-center justify-between">
+          <div>
+            <Link href={`/${params.lang}`} className="text-white">
+              {dictionaries.Navbar.home}
+            </Link>
+            <Link href={`/${params.lang}/contact`} className="text-white ml-4">
+              {dictionaries.Navbar.contact}
+            </Link>
+            <Link href={`/${params.lang}/about`} className="text-white ml-4">
+              {dictionaries.Navbar.about}
+            </Link>
+          </div>
+          <div className="flex items-center gap-1">
+            <ChangeLanguageButton
+              country="United States"
+              icon="/icons/euaIcon.png"
+              alterarIdioma={() => alterarIdioma("en-US")}
+            />
+            <ChangeLanguageButton
+              country="Brazil"
+              icon="/icons/brazilIcon.png"
+              alterarIdioma={() => alterarIdioma("pt-BR")}
+            />
+          </div>
         </div>
-        <div className="flex items-center gap-1">
-          <ChangeLanguageButton
-            country="United States"
-            icon="/icons/euaIcon.png"
-            alterarIdioma={() => alterarIdioma("en-US")}
-          />
-          <ChangeLanguageButton
-            country="Brazil"
-            icon="/icons/brazilIcon.png"
-            alterarIdioma={() => alterarIdioma("pt-BR")}
-          />
-        </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
   );
 };
 

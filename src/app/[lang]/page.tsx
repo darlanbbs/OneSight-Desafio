@@ -6,9 +6,7 @@ export default function Home({ params }: { params: { lang: Locale } }) {
   const dictionaries = getDictionarieConfigServerSide(params.lang);
   return (
     <div>
-      <header>
-        <Navbar params={params} />
-      </header>
+      <Navbar params={params} />
       <p>{dictionaries.site.titulo}</p>
       <p>{dictionaries.site.mensagem}</p>
 

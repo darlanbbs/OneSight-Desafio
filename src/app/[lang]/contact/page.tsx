@@ -11,11 +11,11 @@ const Contact = ({ params }: { params: { lang: Locale } }) => {
   return (
     <div>
       <Navbar params={params} />
-      <div className="container mx-auto mt-8 p-4">
+      <main className="container mx-auto mt-8 p-4 flex flex-col items-center justify-center">
         <TitleComponent title={dictionaries.ContactPage.title} />
         <p className="text-lg mb-4">{dictionaries.ContactPage.text}</p>
         <Formulario params={params} />
-      </div>
+      </main>
     </div>
   );
 };
