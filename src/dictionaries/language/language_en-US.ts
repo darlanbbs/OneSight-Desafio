@@ -1,6 +1,16 @@
 export const enUS = {
   HomePage: {
     title: "Welcome to Onesight",
+    StatistcTitle: "Statistics",
+    statistics: {
+      FirstStatistic: "Completed Projects",
+      SecondStatistic: "Satisfied Clients",
+      ThirdStatistic: "Dissatisfied Clients",
+      FourthStatistic: "Liters of Coffee",
+      FifthStatistic: "OneSight Products",
+      SixthStatistic: "Active Servers",
+    },
+
     sections: {
       FirstSection: {
         title: "Our Mission",

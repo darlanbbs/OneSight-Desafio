@@ -1,6 +1,15 @@
 export const ptBR = {
   HomePage: {
     title: "Bem-vindo à OneSight",
+    StatistcTitle: "Estatísticas",
+    statistic: {
+      FirstStatistic: "Projetos Concluídos",
+      SecondStatistic: "Clientes Satisfeitos",
+      ThirdStatistic: "Clientes Insatisfeitos",
+      FourthStatistic: "Litros de Café",
+      FifthStatistic: "Produtos OneSight",
+      SixthStatistic: "Servidores Ativos",
+    },
     sections: {
       FirstSection: {
         title: "Nossa Missão",
