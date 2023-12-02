@@ -3,8 +3,8 @@ import { getDictionarieConfigServerSide } from "./../../../dictionaries/dictiona
 import Navbar from "./../../components/Navbar/NavBar";
 import { Locale } from "./../../config/i18n.config";
 import React from "react";
-import CompanyOverview from "./../../components/AboutUs/CompanyOverview";
-import TextComponentAbout from "./../../components/AboutUs/TextComponentAbout";
+import CompanyOverview from "../../components/AboutUsComponents/CompanyOverview";
+import TextComponentAbout from "../../components/AboutUsComponents/TextComponentAbout";
 
 const About = ({ params }: { params: { lang: Locale } }) => {
   const dictionaries = getDictionarieConfigServerSide(params.lang);
