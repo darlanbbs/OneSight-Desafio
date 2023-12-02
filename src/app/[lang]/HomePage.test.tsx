@@ -14,7 +14,7 @@ import "@testing-library/jest-dom";
 import Home from "./page";
 import { Locale } from "@/app/config/i18n.config";
 
-test("should render the heading", () => {
+test("should change the Language to English or to Portuguese on Sections and Title", () => {
   const valueEn = { lang: "en-US" as Locale };
   const { container: containerEn } = render(<Home params={valueEn} />);
   expect(containerEn.innerHTML).toContain("Welcome to Onesight");

@@ -14,7 +14,7 @@ import "@testing-library/jest-dom";
 import Contact from "./page";
 import { Locale } from "@/app/config/i18n.config";
 
-test("should render the heading", () => {
+test("should change the Language to English or to Portuguese on Forms and Title", () => {
   const valueEn = { lang: "en-US" as Locale };
   const { container: containerEn } = render(<Contact params={valueEn} />);
   expect(containerEn.innerHTML).toContain("Get in touch with us.");
