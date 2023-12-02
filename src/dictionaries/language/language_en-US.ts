@@ -1,8 +1,38 @@
 export const enUS = {
-  site: {
-    titulo: "Welcome to My App",
-    mensagem: "This is an example message in American English.",
-    botao: "Click here",
+  HomePage: {
+    title: "Welcome to Onesight",
+    sections: {
+      FirstSection: {
+        title: "Our Mission",
+        content:
+          "At OneSight, we have a clear and powerful mission: to empower all people to achieve clear and healthy vision. We believe that vision is a fundamental right, and through technological innovations and community commitment, we seek to make this right a reality for everyone.",
+      },
+      SecondSection: {
+        title: "Innovative Products",
+        content:
+          "Our products are more than simple optical devices; they are revolutionary tools to enhance the visual experience. From smart lenses that adapt automatically to mobile apps that democratize access to eye exams, each innovation is designed with a commitment to providing clarity and visual comfort.",
+      },
+      ThirdSection: {
+        title: "Global Impact",
+        content:
+          "Over the years, we have expanded our global reach and positive impact. We collaborate with healthcare professionals, non-profit organizations, and local communities to ensure that our solutions reach those who need them most. Together, we are building a world where vision is accessible to all, regardless of geographical or socioeconomic barriers.",
+      },
+      FourthSection: {
+        title: "Community Engagement",
+        content:
+          "Engaging with communities is at the heart of our approach. We actively participate in outreach programs, organize eye care camps, and work closely with local leaders to understand and address specific visual health needs. By fostering strong community connections, we aim to create lasting change.",
+      },
+      FifthSection: {
+        title: "Ongoing Research",
+        content:
+          "Continuous research is the backbone of our innovation. Our dedicated team of researchers is committed to exploring new technologies, materials, and methods to further advance visual health solutions. By staying at the forefront of scientific developments, we ensure our products are always cutting-edge.",
+      },
+      SixthSection: {
+        title: "Empowering Education",
+        content:
+          "Education is key to lasting impact. We provide resources and workshops to schools and communities, aiming to raise awareness about the importance of regular eye check-ups and overall eye health. Empowering individuals with knowledge is a cornerstone of our commitment to global vision care.",
+      },
+    },
   },
   Navbar: {
     home: "Home",

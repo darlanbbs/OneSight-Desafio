@@ -1,8 +1,38 @@
 export const ptBR = {
-  site: {
-    titulo: "Bem-vindo ao Meu Aplicativo",
-    mensagem: "Este é um exemplo de mensagem em português brasileiro.",
-    botao: "Clique aqui",
+  HomePage: {
+    title: "Bem-vindo à OneSight",
+    sections: {
+      FirstSection: {
+        title: "Nossa Missão",
+        content:
+          "Na OneSight, temos uma missão clara e poderosa: capacitar todas as pessoas a alcançarem uma visão clara e saudável. Acreditamos que a visão é um direito fundamental e, por meio de inovações tecnológicas e compromisso comunitário, buscamos tornar esse direito uma realidade para todos.",
+      },
+      SecondSection: {
+        title: "Produtos Inovadores",
+        content:
+          "Nossos produtos são mais do que simples dispositivos ópticos; são revolucionárias ferramentas para aprimorar a experiência visual. Desde lentes inteligentes que se adaptam automaticamente até aplicativos móveis que democratizam o acesso a exames oculares, cada inovação é projetada com o compromisso de proporcionar clareza e conforto visual.",
+      },
+      ThirdSection: {
+        title: "Impacto Global",
+        content:
+          "Ao longo dos anos, expandimos nosso alcance global e impacto positivo. Colaboramos com profissionais de saúde, organizações sem fins lucrativos e comunidades locais para garantir que nossas soluções alcancem aqueles que mais precisam. Juntos, estamos construindo um mundo onde a visão é acessível a todos, independentemente de barreiras geográficas ou socioeconômicas.",
+      },
+      FourthSection: {
+        title: "Engajamento Comunitário",
+        content:
+          "O envolvimento com as comunidades está no cerne da nossa abordagem. Participamos ativamente de programas de divulgação, organizamos acampamentos de cuidados com os olhos e trabalhamos em estreita colaboração com líderes locais para entender e atender às necessidades específicas de saúde visual. Ao fomentar conexões sólidas com a comunidade, buscamos criar mudanças duradouras.",
+      },
+      FifthSection: {
+        title: "Pesquisa Contínua",
+        content:
+          "A pesquisa contínua é a espinha dorsal da nossa inovação. Nossa equipe dedicada de pesquisadores está comprometida em explorar novas tecnologias, materiais e métodos para avançar ainda mais as soluções de saúde visual. Ao permanecer na vanguarda dos desenvolvimentos científicos, garantimos que nossos produtos estejam sempre na vanguarda.",
+      },
+      SixthSection: {
+        title: "Educação Capacitadora",
+        content:
+          "A educação é fundamental para um impacto duradouro. Fornecemos recursos e workshops para escolas e comunidades, com o objetivo de conscientizar sobre a importância de check-ups oculares regulares e saúde ocular geral. Capacitar indivíduos com conhecimento é um pilar do nosso compromisso com o cuidado global da visão.",
+      },
+    },
   },
   Navbar: {
     home: "Home",
