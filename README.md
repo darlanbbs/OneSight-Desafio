@@ -1,36 +1,151 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+    <img src="https://github.com/darlanbbs/OneSight-Desafio/blob/main/public/onesightLayout/logo.png" alt="Logo" width="400px"/>
+</div>
 
-## Getting Started
+<br/>
 
-First, run the development server:
+<div align="center">
+    <h1>Challenge Multi-Idiomas</h1>
+    <p align="center">Uma aplicação Web responsiva desenvolvida em <a href="https://nextjs.org/">NextJS</a> que troca o idioma da página recuperando as strings de arquivos de linguagens.
+    </p>
+</div>
+
+<div align="center">
+    <img src="https://img.shields.io/static/v1?label=NextJS&message=13.1.6&color=#009CA3%3CCOLOR%3E&style=plastic%3CSTYLE%3E&logo=react%3CLOGO%3E" alt="Versão do NextJS" />
+    <img src="https://img.shields.io/static/v1?label=Typescript&message=4.9.5&color=#009CA3%3CCOLOR%3E&style=plastic%3CSTYLE%3E&logo=react%3CLOGO%3E" alt="Versão do Typescript" />
+    <img src="https://img.shields.io/static/v1?label=Jest&message=29.5.0&color=#009CA3%3CCOLOR%3E&style=plastic%3CSTYLE%3E&logo=react%3CLOGO%3E" alt="Versão do Jest" />
+    <img src="https://img.shields.io/static/v1?label=Testing%20Library&message=14.0.0&color=#009CA3%3CCOLOR%3E&style=plastic%3CSTYLE%3E&logo=react%3CLOGO%3E" alt="Versão do Testing Library" />
+</div>
+
+<div align="center">
+    <a href="#tecnologias">Tecnologias</a> •
+    <a href="#como-usar">Como usar</a> •
+    <a href="#desafios">Desafios</a> •
+    <a href="#melhorias">Melhorias</a>
+</div><br>
+
+**Demo FRONT-END:** [**https://one-sight-desafio.vercel.app/en-US/**](https://one-sight-desafio.vercel.app/)
+
+<br/>
+
+# Tecnologias
+#### Linguagens e Ferramentas:
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+#### Front-end:
+- [TailwindCss](https://tailwindcss.com/docs/)
+
+#### Testes:
+- [Jest](https://jestjs.io/)
+- [Testing Library](https://testing-library.com/)
+
+#### Padronização de Código:
+- [Prettier](https://prettier.io/)
+
+<br/>
+
+# Como usar
+**Clone o projeto e acesse a pasta:**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+$ git clone git@github.com:darlanbbs/OneSight-Desafio.git && cd OneSight-Desafio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+___
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Siga os passos a baixo para rodar a aplicação localmente:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
 
-## Learn More
+# Instale as dependências:
+$ yarn
 
-To learn more about Next.js, take a look at the following resources:
+# Inciar a aplicação
+$ yarn run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open http://localhost:3000
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+___
 
-## Deploy on Vercel
+**Para rodar os testes:**
+```bash
+# Instale as dependências:
+$ yarn
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Rodar o comando de teste:
+$ yarn run test
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<br/>
+
+<div align="left">
+    <img src="https://github.com/darlanbbs/OneSight-Desafio/blob/main/public/onesightLayout/tests.png" alt="Tests"/>
+</div>
+
+___
+
+
+**Siga os passos a baixo para rodar a aplicação com Docker e Makefile:**
+
+### Development environment:
+
+```
+make build-development
+make start-development
+```
+
+Open http://localhost:3001
+
+___
+
+### Staging environment:
+
+```
+make build-staging
+make start-staging
+```
+
+Open http://localhost:3002
+
+___
+
+### Production environment:
+
+```
+make build-production
+make start-production
+```
+
+Open http://localhost:3003
+
+___
+
+<br/>
+
+# Desafios
+- <p>Tive um pouco de desafio na hora da realização e configuração dos testes então tive que ver alguns videos e ler um pouco mais a documentação.</p>
+
+- <p>Também tive um pouco de dificuldade na hora configuração do Docker já que é algo que não tinha muito conhecimento então tive que procurar alguns videos e pedi ajuda a um amigo que já tinha experiência.</p>
+
+<br/>
+
+# Melhorias
+**Design:**
+- <p>Acredito daria para fazer um Design mais completo por uma exemplo uma Landing Page completa com mais estilizações e funções.</p>
+
+- <p>Poderia melhorar a perfomance dos Testes.</p>
+<br/>
+
+# Contato
+
+Qualquer dúvida, sugestão ou crítica estarei à disposição!
+
+**Obrigado pela oportunidade!**
+
+E-mail: **darlanbs05@gmail.com**
+
+WhatsApp: (71) 98604-7621
+
+LinkedIn: [**https://www.linkedin.com/in/darlan-bomfim-903582260/**](https://www.linkedin.com/in/darlan-bomfim-903582260/)
