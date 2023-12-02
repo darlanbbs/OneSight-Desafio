@@ -21,7 +21,8 @@
     <a href="#tecnologias">Tecnologias</a> •
     <a href="#como-usar">Como usar</a> •
     <a href="#desafios">Desafios</a> •
-    <a href="#melhorias">Melhorias</a>
+    <a href="#melhorias">Melhorias</a> •
+    <a href="#contato"> Contato</a>
 </div><br>
 
 **Demo FRONT-END:** [**https://one-sight-desafio.vercel.app/**](https://one-sight-desafio.vercel.app/)
@@ -133,7 +134,7 @@ ___
 
 # Melhorias
 **Design:**
-- <p>Acredito daria para fazer um Design mais completo por uma exemplo uma Landing Page completa com mais estilizações e funções.</p>
+- <p>Acredito que daria para fazer um Design mais completo por uma exemplo uma Landing Page completa com mais estilizações e funções.</p>
 
 - <p>Poderia melhorar a perfomance dos Testes.</p>
 <br/>
