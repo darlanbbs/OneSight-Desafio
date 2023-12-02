@@ -11,7 +11,7 @@ const Contact = ({ params }: { params: { lang: Locale } }) => {
   return (
     <div>
       <Navbar params={params} />
-      <main className="container mx-auto mt-8 p-4 flex flex-col items-center justify-center">
+      <main className="container mx-auto mt-8 p-4">
         <TitleComponent title={dictionaries.ContactPage.title} />
         <p className="text-lg mb-4">{dictionaries.ContactPage.text}</p>
         <Formulario params={params} />
