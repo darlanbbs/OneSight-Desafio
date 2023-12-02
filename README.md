@@ -24,7 +24,7 @@
     <a href="#melhorias">Melhorias</a>
 </div><br>
 
-**Demo FRONT-END:** [**https://one-sight-desafio.vercel.app/en-US/**](https://one-sight-desafio.vercel.app/)
+**Demo FRONT-END:** [**https://one-sight-desafio.vercel.app/**](https://one-sight-desafio.vercel.app/)
 
 <br/>
 
