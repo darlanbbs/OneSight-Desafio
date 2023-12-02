@@ -3,8 +3,8 @@ import { getDictionarieConfigServerSide } from "./../../../dictionaries/dictiona
 import Navbar from "./../../components/Navbar/NavBar";
 import { Locale } from "./../../config/i18n.config";
 import React from "react";
-import CompanyOverview from "@/app/components/AboutUs/CompanyOverview";
-import TextComponentAbout from "@/app/components/AboutUs/TextComponentAbout";
+import CompanyOverview from "./../../components/AboutUs/CompanyOverview";
+import TextComponentAbout from "./../../components/AboutUs/TextComponentAbout";
 
 const About = ({ params }: { params: { lang: Locale } }) => {
   const dictionaries = getDictionarieConfigServerSide(params.lang);
@@ -12,7 +12,7 @@ const About = ({ params }: { params: { lang: Locale } }) => {
   return (
     <>
       <Navbar params={params} />
-      <div className="container mx-auto mt-8">
+      <main className="container mx-auto mt-8">
         <TitleComponent title={dictionaries.AboutPage.title} />
         <CompanyOverview
           history={dictionaries.AboutPage.overview.titleHistory}
@@ -25,7 +25,7 @@ const About = ({ params }: { params: { lang: Locale } }) => {
           <TextComponentAbout text={dictionaries.AboutPage.FourthParagraph} />
           <TextComponentAbout text={dictionaries.AboutPage.FifthParagraph} />
         </div>
-      </div>
+      </main>
     </>
   );
 };
