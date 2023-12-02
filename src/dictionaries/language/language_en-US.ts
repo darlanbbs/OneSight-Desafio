@@ -11,13 +11,34 @@ export const enUS = {
   },
   AboutPage: {
     title: `About us`,
-    FirstParagraph: `We are a team passionate about technology and innovation. Our goal is to create innovative
-    solutions that positively impact people's lives. We work together to overcome challenges
-    and deliver high-quality products and services.`,
-    Secondparagraph: `We believe in the power of collaboration and the importance of creating an inclusive
-    work environment. Our journey is driven by the constant pursuit of learning and improvement.
-    We are committed to providing exceptional experiences for our users.`,
+    overview: {
+      titleHistory: "History of Foundation",
+      history: `OneSight is an innovative company dedicated to providing exceptional visual experiences for people all over the world. Since our foundation, we have sought to revolutionize the way people see the world by combining cutting-edge technology with a customer-centric approach.`,
+    },
+
+    FirstParagraph: `Founded in 2010 by visionaries passionate about visual innovation, OneSight was
+      born from the idea of making vision accessible to everyone. Our journey began
+      with a small group of engineers and designers who believed that technology
+      could be used to transform lives.`,
+    SecondParagraph: `At that time, we witnessed communities around the world facing significant
+      challenges in accessing adequate visual care. It was then that we decided to
+      combine our skills and knowledge to create innovative solutions that could
+      break down barriers on the path to ocular health for all.`,
+    ThirdParagraph: `During the early years, we faced many challenges and learned valuable lessons
+      that shaped our approach. Committed to the mission of providing universal
+      access to vision, we developed revolutionary technologies that go beyond
+      traditional glasses.`,
+    FourthParagraph: `Our tireless focus on research and development resulted in innovations such as
+      smart lenses that dynamically adapt to lighting conditions, enhancing the
+      visual experience in any environment. Additionally, our mobile applications
+      provide interactive tools for self-assessment of vision and connect people to
+      visual health professionals in real-time.`,
+    FifthParagraph: `Currently, OneSight continues to lead the way in the convergence of technology
+      and visual health. Our vision goes beyond creating innovative products; it's
+      about empowering individuals and communities, ensuring that everyone has
+      access to clear and healthy vision, regardless of where they are in the world.`,
   },
+
   ContactPage: {
     text: `Do you have any questions or would you like to get in touch with us? Fill out the form below.`,
     title: `Get in touch with us.`,
